@@ -1,0 +1,14 @@
+Class: Menu
+
+Attributes
+dish (string)
+section (array)
+price (float)
+number_of_pages (integer)
+laminated (boolean)
+
+Methods
+rip_page (modifies number_of_pages)
+remove_dish (modifies section)
+add_section (modifies section)
+laminate_pages (value for laminated)
