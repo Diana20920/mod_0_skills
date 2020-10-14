@@ -1,0 +1,14 @@
+AnchorAlliesBrunchMenu
+
+Attributes
+bottomless_bloddy_mary = false
+section = ["Omelettes", "American", "Benedict", "Pancakes"]
+price = 30.15
+number_of_pages = 2
+laminated = true
+
+Methods
+rip_page : 1
+remove_dish : ["Omelettes", "American", "Pancakes"]
+add_section : ["Burritos", "Omelettes", "American", "Pancakes"]
+laminate_pages : true
