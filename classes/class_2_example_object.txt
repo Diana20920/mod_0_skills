@@ -3,13 +3,13 @@ CampoViejoRioja
 Attributes
 harvest_year = 2017
 type = ["red"]
-origin "Spain"
+origin = "Spain"
 imported = true
 price_per_glass = 6.99
 temperature = room
 
 Methods
 request_chilled : chilled
-buy_glass = 6.99
-order_red = red
-ask_origin = "Spain"
+buy_glass : 6.99
+order_red : red
+ask_origin : "Spain"
