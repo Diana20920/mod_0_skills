@@ -1,0 +1,15 @@
+Class: Wine
+
+Attributes
+harvest_year (integer)
+type (array)
+origin (string)
+imported (boolean)
+price_per_glass (float)
+temperature (string)
+
+Methods
+request_chilled (modify temperature)
+buy_glass (charge price_per_glass)
+order_red (type is modified)
+ask_origin (will show origin)
