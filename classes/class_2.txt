@@ -1,15 +1,14 @@
-Class: Wine
+class Wine
 
-Attributes
+Attributes:
 harvest_year (integer)
 type (array)
 origin (string)
-imported (boolean)
 price_per_glass (float)
-temperature (string)
+temperature_preference (string)
 
-Methods
-request_chilled (modify temperature)
-buy_glass (charge price_per_glass)
-order_red (type is modified)
-ask_origin (will show origin)
+Methods:
+request_chilled (reassigns temperature_preference)
+dicount_price_per_glass (reassigns price_per_glass)
+order_tempranillo (applicable array element is returned)
+ask_origin (will return origin value)

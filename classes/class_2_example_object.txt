@@ -1,15 +1,14 @@
-CampoViejoRioja
+instance/object: CampoViejoRioja
 
-Attributes
+Attributes:
 harvest_year = 2017
-type = ["red"]
+type = ["Tempranillo", "Reserva", "Gran Reserva"]
 origin = "Spain"
-imported = true
-price_per_glass = 6.99
-temperature = room
+price_per_glass = 11.99
+temperature_preference = "room temperature"
 
-Methods
-request_chilled : chilled
-buy_glass : 6.99
-order_red : red
-ask_origin : "Spain"
+Methods:
+request_chilled: "chilled"
+buy_glass: 8.99
+order_tempranillo: ["Tempranillo"]
+ask_origin: "Spain"

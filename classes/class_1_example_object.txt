@@ -1,14 +1,14 @@
-AnchorAlliesBrunchMenu
+instance/object: AnchorAlliesBrunchMenu
 
-Attributes
-bottomless_bloddy_mary = false
-section = ["Omelettes", "American", "Benedict", "Pancakes"]
-price = 30.15
+Attributes:
+bottomless_bloody_mary = false
+sections = ["Omelettes", "American", "Benedicts", "Pancakes"]
 number_of_pages = 2
 laminated = true
 
-Methods
-rip_page : 1
-remove_dish : ["Omelettes", "American", "Pancakes"]
-add_section : ["Burritos", "Omelettes", "American", "Pancakes"]
-laminate_pages : true
+Methods:
+rip_page: 1
+add_section: ["Burritos", "Omelettes", "American", "Benedicts", "Pancakes"]
+laminate_pages: true
+add_bottomless_bloody_mary: true
+remove_last_section: ["Burritos", "Omelettes", "American", "Benedicts"]

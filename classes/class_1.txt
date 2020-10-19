@@ -1,14 +1,14 @@
-Class: Menu
+class BrunchMenu
 
-Attributes
-dish (string)
-section (array)
-price (float)
+Attributes:
+bottomless_bloody_mary (boolean)
+sections (array)
 number_of_pages (integer)
 laminated (boolean)
 
-Methods
-rip_page (modifies number_of_pages)
-remove_dish (modifies section)
-add_section (modifies section)
-laminate_pages (value for laminated)
+Methods:
+rip_page (reassigns number_of_pages)
+add_section (modifies sections)
+laminate_pages (returns value for laminated)
+add_bottomless_bloody_mary (reassigns the value for bottomless_bloody_mary)
+remove_last_section (modifies sections)
